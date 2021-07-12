@@ -1,0 +1,48 @@
+.customerHeader {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.customerHeader__top {
+    height: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+}
+
+.customerHeader__top > h1 {
+    background: -webkit-linear-gradient( rgba(255,255,255,1), rgb(68, 68, 68));
+    font-size: 3vw;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.customerHeader__bottom {
+    height: 30%;
+}
+
+.customerHeader__bottom__buttonContainer {
+    
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+.customerHeader__bottom__buttonContainer__button {
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    flex: 0.2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.customerHeader__bottom__buttonContainer__button > p {
+    color: rgba(255, 255, 255, 0.452);
+    font-size: 1vw;
+}
+
+.customerHeader__bottom__buttonContainer__button:hover {
+    background: rgb(22, 22, 22);
+}
