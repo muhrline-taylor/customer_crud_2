@@ -60,8 +60,6 @@ public class PurchaseController {
 		Long customer_id = purchase.getCustomer_id();
 		
 		return purchaseServices.createPurchase(title, amount, customer_id);
-		
-		// THIS FUNCTION NEEDS TO TAKE IN REQUESTBODY, SPLIT IT UP, THEN PASS IT TO SERVICES
 	}
 	
 	
