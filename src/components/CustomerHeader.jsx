@@ -41,6 +41,19 @@ function CustomerHeader() {
                     >
                         <p>All Purchases</p>
                     </a>
+                    <a 
+                        className="customerHeader__bottom__buttonContainer__button"
+                        href="/products/new"
+                    >
+                        <p>Create Product</p>
+                    </a>
+                    <a 
+                        className="customerHeader__bottom__buttonContainer__button"
+                        href="/products"
+                    >
+                        <p>All Products</p>
+                    </a>
+                    
                 </div>
             </div>
 

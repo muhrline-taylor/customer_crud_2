@@ -40,7 +40,7 @@
 
 .customerHeader__bottom__buttonContainer__button > p {
     color: rgba(255, 255, 255, 0.452);
-    font-size: 1vw;
+    font-size: 0.8vw;
 }
 
 .customerHeader__bottom__buttonContainer__button:hover {

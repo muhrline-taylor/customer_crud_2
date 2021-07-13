@@ -1,0 +1,19 @@
+.viewAllPurchases {
+
+}
+
+.viewAllPurchases__table {
+    width: 100%;
+    text-align: center;
+}
+
+.align-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table__link {
+    text-decoration: none;
+    color: rgb(184, 2, 2);
+    font-weight: 700;
+}
